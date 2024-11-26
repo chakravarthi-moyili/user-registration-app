@@ -1,0 +1,82 @@
+div h2 {
+  color: #FB7A28;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #4c63af;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+td .actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+td button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+td button:first-of-type {
+  background-color: #FFA500;
+  color: white;
+}
+
+td button:first-of-type:hover {
+  background-color: #e69500;
+}
+
+td button:last-of-type {
+  background-color: #FF6347;
+  color: white;
+}
+
+td button:last-of-type:hover {
+  background-color: #e5533d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  table {
+      font-size: 12px;
+  }
+
+  th, td {
+      padding: 8px 10px;
+  }
+
+  td button {
+      font-size: 12px;
+  }
+
+  td .actions {
+      flex-direction: column;
+      gap: 5px;
+  }
+
+  td button {
+      width: 100%;
+  }
+}

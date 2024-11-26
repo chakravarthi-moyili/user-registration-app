@@ -1,0 +1,24 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #d7e2fd;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #004079;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .App {
+    padding: 15px;
+  }
+}

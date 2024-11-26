@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Yugandhar",
+      "email": "yugandhar@gmail.com",
+      "dob": "1998-11-30"
+    },
+    {
+      "id": 2,
+      "name": "Chakravarthi",
+      "email": "chakravarthi@gmail.com",
+      "dob": "1999-06-27"
+    },
+    {
+      "name": "Eswar",
+      "email": "eswar@gmail.com",
+      "dob": "1999-03-17",
+      "id": 3
+    }
+  ]
+}
