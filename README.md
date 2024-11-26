@@ -12,7 +12,7 @@ This is a simple full-stack web application built using **React** for the fronte
 ## Tech Stack
 
 - **Frontend**: React, Vite
-- **Backend**: Node.js, json-server
+- **Backend**: json-server
 - **Styling**: CSS
 
 ## Project Structure
